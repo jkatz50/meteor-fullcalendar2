@@ -1,10 +1,10 @@
 {
-    "name": "meteor-fullcalendar2.0",
+    "name": "fullcalendar2.0",
     "description": "Full-sized drag and drop event calendar that uses FullCalendar 2.0.0 (jQuery plugin)",
-    "homepage": "https://github.com/J-Katzen/meteor-fullcalendar2.0",
+    "homepage": "https://github.com/J-Katzen/meteor-fullcalendar2",
     "author": "Jacob Katzen",
     "version": "0.9.9",
-    "git": "https://github.com/J-Katzen/meteor-fullcalendar2.0.git",
+    "git": "https://github.com/J-Katzen/meteor-fullcalendar2.git",
     "packages": {
         "jquery-ui": "1.9.2",
         "moment": {}
