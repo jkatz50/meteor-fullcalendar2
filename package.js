@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.use('jquery-ui', 'client');
+    api.use('moment', 'client');
     api.add_files([
         'css/fullcalendar.css',
         'lib/fullcalendar.min.js',
