@@ -1,5 +1,5 @@
 /*!
- * FullCalendar v2.0.0 Stylesheet
+ * FullCalendar v2.0.1 Stylesheet
  * Docs & License: http://arshaw.com/fullcalendar/
  * (c) 2013 Adam Shaw
  */
@@ -118,10 +118,7 @@ html .fc,
 /* Cell Styles
 ------------------------------------------------------------------------*/
 
-.fc-widget-header {    /* <th>, usually */
-	border:none;
-	}
-	
+.fc-widget-header,    /* <th>, usually */
 .fc-widget-content {  /* <td>, usually */
 	border: 1px solid #ddd;
 	}
@@ -361,42 +358,7 @@ a.fc-event,
 	}
 	
 	
-/* Global Background Styles
- ------------------------------------------------------------------------*/
- 
-.fc-event.fc-event-background {
-	border-style:        solid;
-	border-top-width:    0;
-	border-right-width:  0;
-	border-bottom-width: 0;
-	border-left-width:   0;
-	font-size:           .85em;
-	cursor:              default;
-	z-index:             7;
-}
-
-.fc-event.fc-event-start.fc-event-background {
-	border-top-width:        0;
-	border-top-left-radius:  0;
-	border-top-right-radius: 0;
-}
-
-.fc-event.fc-event-end.fc-event-background {
-	border-bottom-width:        0;
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius:  0;
-}
-
-.fc-event.fc-event-background-skin {
-	border-color:     #999; /* default BORDER color */
-	background-color: #edb; /* default BACKGROUND color */
-	color:            #777; /* default TEXT color */
-	text-align:       center;
-	opacity:          0.8;
-	filter:           alpha(opacity=80); /* for IE */
-}
-
-
+	
 /* Reusable Separate-border Table
 ------------------------------------------------------------*/
 
@@ -544,8 +506,7 @@ table.fc-border-separate {
 /* slot rows */
 	
 .fc-agenda-slots th {
-	/*border-width: 1px 1px 0;*/
-	border-width:0px;
+	border-width: 1px 1px 0;
 	}
 	
 .fc-agenda-slots td {
@@ -609,7 +570,7 @@ table.fc-border-separate {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: transparent;
+	background: #fff;
 	opacity: .25;
 	filter: alpha(opacity=25);
 	}
